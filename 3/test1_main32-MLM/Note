@@ -1,0 +1,34 @@
+mg242+p6 -> LHE-> p8
+
+*-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | Les Houches User Process(es)                  9999 |       10000      10000       4640 |   1.373e-06  1.484e-08 |
+ |    ... whereof user classification code          1 |        4835       4835       3330 |                        | 
+ |    ... whereof user classification code          2 |        3016       3016        830 |                        | 
+ |    ... whereof user classification code          3 |        2149       2149        480 |                        | 
+ |                                                    |                                   |                        |
+ | sum                                                |       10000      10000       4640 |   1.373e-06  1.484e-08 |
+ |                                                                                                                 
+
+
+mg267+p8 -> LHE-> p8
+
+ *-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | Les Houches User Process(es)                  9999 |       10000      10000       4218 |   1.014e-04  6.177e-07 |
+ |    ... whereof user classification code          1 |        4101       4101       2836 |                        | 
+ |    ... whereof user classification code          2 |        3379       3379        899 |                        | 
+ |    ... whereof user classification code          3 |        2520       2520        483 |                        | 
+ |                                                    |                                   |                        |
+ | sum                                                |       10000      10000       4218 |   1.014e-04  6.177e-07 |
+ |                                                                                                                 

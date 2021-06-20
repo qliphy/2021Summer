@@ -1,0 +1,23 @@
+http://home.thep.lu.se/~torbjorn/Pythia.html
+PY8.2
+./configure --with-hepmc2=/home/qliphy/Desktop/common/hepmc --with-root=/home/qliphy/Desktop/common/root/
+           --with-root-bin=${ROOTSYS}/bin ????
+-> May need to adjust Makefile.inc manually
+# ROOT configuration.
+ROOT_USE=true
+ROOT_BIN=/home/qliphy/Desktop/common/root/bin/
+ROOT_INCLUDE=/home/qliphy/Desktop/common/root/include/
+ROOT_LIB=/home/qliphy/Desktop/common/root/lib/
+
+
+
+main02: main02.cc $(PREFIX_LIB)/libpythia8.a
+ifeq ($(ROOT_USE),true)
+	$(CXX) $< -o $@ -w -I$(ROOT_INCLUDE) $(CXX_COMMON)\
+	 `$(ROOT_BIN)root-config --cflags`\
+	 -Wl,-rpath,$(ROOT_LIB) `$(ROOT_BIN)root-config --glibs`
+else
+	@echo "Error: $@ requires ROOT"
+endif
+
+
